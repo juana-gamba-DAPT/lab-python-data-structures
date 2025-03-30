@@ -1,0 +1,12 @@
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~/OneDrive/Escritorio/ironhack
+$ python3 -m venv venv
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~/OneDrive/Escritorio/ironhack
+$ ^C
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~/OneDrive/Escritorio/ironhack
+$ source venv/Scripts/activate
+(venv) 
+juana@LAPTOP-JGNSL0FO MINGW64 ~/OneDrive/Escritorio/ironhack
+$

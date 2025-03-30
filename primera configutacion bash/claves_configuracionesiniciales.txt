@@ -1,0 +1,44 @@
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~
+$ eval "$(ssh-agent-s)"
+bash: ssh-agent-s: command not found
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~
+$ eval "$(ssh-agent -s)"
+Agent pid 402
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~
+$ ssh-add ~/.ssh/id_ed25519
+Identity added: /c/Users/juana/.ssh/id_ed25519 (juana.gabriela21@gmail.com)
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~
+$ cat ~/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEbsaZ5VjILqsr1sBcErwxDj/ezJGuqC+hGP2s33gukf juana.gabriela21@gmail.com
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~
+$ ^C
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~
+$ ^C
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~
+$ ssh -T git@github.com
+Hi juana-gamba-DAPT! You've successfully authenticated, but GitHub does not provide shell access.
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~
+$ ssh -T git@github.com
+Hi juana-gamba-DAPT! You've successfully authenticated, but GitHub does not provide shell access.
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~
+$ pwd
+/c/Users/juana
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~
+$ git config --global user.name "Juana"
+
+juana@LAPTOP-JGNSL0FO MINGW64 ~
+$ git config --global user.email “juana.gabriela21@gmail.com"
+>
+
+
+_______________________________________________________________________________________________________
