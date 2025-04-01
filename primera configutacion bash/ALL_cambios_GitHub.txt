@@ -1,0 +1,49 @@
+
+Verificar la carpeta en la que estás trabajando:
+
+Abre la terminal y usa:
+pwd (Linux/Mac) o cd (Windows).
+
+Asegúrate de estar en la carpeta correcta.
+
+Hacer el fork del repositorio:
+
+Ve a GitHub y haz un fork del repositorio original (si no lo has hecho).
+
+Clonar el repositorio a tu máquina local:
+
+Usa el siguiente comando para clonar el repositorio:
+git clone <url_del_repositorio_forkeado>
+
+Verificar la rama en la que estás:
+
+Usa git status para confirmar en qué rama estás (debería ser main).
+
+Hacer cambios en el archivo:
+
+Edita el archivo necesario en tu editor de texto/IDE.
+
+Verificar los cambios:
+
+Usa git status para ver los archivos modificados.
+
+Añadir los archivos al área de preparación (staging):
+
+Usa:
+git add .
+(Esto añadirá todos los archivos modificados).
+
+Hacer un commit de los cambios:
+
+Usa:
+git commit -m "Descripción de tus cambios"
+
+Subir los cambios a GitHub:
+
+Usa:
+git push origin main
+(Esto subirá los cambios al repositorio en GitHub).
+
+Verificar en GitHub:
+
+Ve al repositorio en GitHub y verifica que los cambios se reflejen correctamente.
